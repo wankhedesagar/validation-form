@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: #dfe9f5;
+  }
+  
+  .wrapper {
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: rgb(128, 70, 70);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgb(0, 0, 0);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #07001f;
+    margin-bottom: 1.2rem;
+  }
+  
+  form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 20px;
+    background: #e4e4e4;
+  }
+  
+  button {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    cursor: pointer;
+    background: rgb(17, 107, 143);
+    transition: 1s;
+  }
+  
+  button:hover {
+    background: rgba(17, 143, 74, 0.877);
+  }
+  input:focus {
+    border: 1px solid rgb(192, 192, 192);
+  }
+  
+  .member {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    /* color: #636363; */
+  }
+  .member a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .recover{
+      text-align: right;
+      font-size: 0.7rem;
+      margin: 0.3rem 1.4rem 0 0;
+  }
+
+  .recover a{
+      text-decoration: none;
+      color: #fff;
+  }
